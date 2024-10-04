@@ -1,0 +1,54 @@
+/* Add this to your CSS file (Report.css) or modify your existing CSS */
+
+.report-form-container {
+  margin-top: 20px; 
+  box-shadow: 0px 0px 20px #ccc;
+  display: flex;
+  width: 700px;
+  margin: 50px auto; 
+  /* Add space at the top */
+}
+
+.report-form-container form {
+  width: 600px; /* Set a maximum width for the form */
+  margin: 50px auto; /* Center the form horizontally */
+ 
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.form-group select,
+.form-group input[type="file"] {
+  margin-top: 5px; /* Add a bit of space for better alignment */
+}
+h2{
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

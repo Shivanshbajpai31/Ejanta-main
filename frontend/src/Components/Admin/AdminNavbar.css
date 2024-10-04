@@ -1,0 +1,48 @@
+/* Navbar.css */
+
+.navbar {
+  background: linear-gradient(to right, #845ec2, #2c3e50); /* Gradient background */
+  
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #ffd166; /* Highlight color on hover */
+}
+
+.ml-auto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Optional: Add a subtle animation effect to the Navbar */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.navbar {
+  animation: fadeInDown 0.5s ease-out;
+}

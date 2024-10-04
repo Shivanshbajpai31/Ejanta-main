@@ -1,0 +1,103 @@
+
+
+.post-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-right: 200px; /* Adjust the margin to prevent overlap with the top posts section */
+    gap: 20px; /* Add a gap between posts */
+  }
+  
+  .single-column {
+    
+    column-count: 1;
+  }
+  
+  .two-columns {
+    column-count: 2;
+  }
+  
+  .alert-container {
+    position: sticky;
+    top: 20px;
+  }
+  
+  .post-container .mb-4 {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .top-posts-container {
+    position: sticky;
+    top: 20px;
+  }
+  
+  .top-posts-container h2 {
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  .list-group {
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .list-group-item {
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa; /* Change the color as needed */
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+  }
+  
+  .list-group-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Additional styling for top posts section */
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .top-posts-container {
+    position: fixed;
+    top: 80px; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
+    width: 250px;
+    margin-right: 50px; /* Adjust the width as needed */
+    z-index: 1000; /* Set a high z-index to ensure it appears above other elements */
+  }
+  
+  /* Add any other necessary styles here */
+  /* Home.css */
+
+.post-container {
+  margin-top: 20px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.timestamp {
+  font-style: italic;
+  font-size: small;
+}
+/* Home.css */
+
+.alert-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.pendingbutton{
+  margin-left: 20px;
+}

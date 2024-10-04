@@ -1,0 +1,19 @@
+.reset-link-style {
+    text-decoration: none; /* Remove underlines */
+    color: inherit; /* Inherit the color from the parent */
+    /* Add any other styles as needed */
+  }
+  .register-container{
+    margin-top: 20px; 
+  box-shadow: 0px 0px 20px #ccc;
+  display: flex;
+  width: 100px;
+  margin: 50px auto; 
+  }
+  .register-form-controlller{
+    width: 600px; /* Set a maximum width for the form */
+    margin: 50px auto;
+  }
+  h3{
+    text-align: center;
+  }

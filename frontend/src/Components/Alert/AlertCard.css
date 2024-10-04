@@ -1,0 +1,38 @@
+/* AlertCard.css */
+
+.alert-card {
+    border: 2px solid #ffc107; /* Bootstrap warning color */
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .alert-header {
+    background-color: #ffc107; /* Bootstrap warning color */
+    color: #212529; /* Bootstrap text color */
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .alert-title {
+    margin: 0;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #212529; /* Bootstrap text color */
+    cursor: pointer;
+  }
+  
+  .no-alerts {
+    text-align: center;
+    margin-top: 20px;
+    color: #868e96; /* Bootstrap muted color */
+  }
+  

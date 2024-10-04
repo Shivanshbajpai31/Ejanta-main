@@ -1,0 +1,27 @@
+/* AdminDashboard.css */
+.admin-dashboard-container {
+  padding: 20px;
+}
+
+.report-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-title {
+  cursor: pointer;
+  color: #007bff;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.verify-button,
+.handle-button {
+  margin-right: 10px;
+}
+
+.verify-button:hover,
+.handle-button:hover {
+  filter: brightness(90%);
+}

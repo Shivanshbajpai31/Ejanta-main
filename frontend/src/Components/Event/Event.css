@@ -1,0 +1,51 @@
+/* UserEvents.css */
+
+/* Container styles */
+.container {
+    margin-top: 20px;
+  }
+  
+  /* Event Card styles */
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 1.25rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  /* Row styles */
+  .row {
+    margin: -15px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 767px) {
+    .card {
+      margin-bottom: 20px;
+    }
+  }
+  
